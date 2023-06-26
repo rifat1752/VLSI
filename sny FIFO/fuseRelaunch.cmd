@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/ise/synFIFO/synFIFO_tb_isim_beh.exe" -prj "/home/ise/synFIFO/synFIFO_tb_beh.prj" "work.synFIFO_tb" "work.glbl" 

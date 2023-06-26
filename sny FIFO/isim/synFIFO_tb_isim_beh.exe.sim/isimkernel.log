@@ -1,0 +1,28 @@
+Command line:
+   synFIFO_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51831
+
+Thu Jun 22 20:54:26 2023
+
+
+ Elaboration Time: 0.04 sec
+
+ Current Memory Usage: 198.582 Meg
+
+ Total Signals          : 22
+ Total Nets             : 51
+ Total Signal Drivers   : 14
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 18
+ Total Traceable Variables  : 30
+ Total Scalar Nets and Variables : 2233
+
+ Total Simulation Time: 0.05 sec
+
+ Current Memory Usage: 276.181 Meg
+
+Thu Jun 22 20:59:14 2023
+

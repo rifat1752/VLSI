@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "/home/ise/synFIFO/synFIFO.xst" -ofn "/home/ise/synFIFO/synFIFO.syr" 
+xst -intstyle ise -ifn "/home/ise/synFIFO/synFIFO.xst" -ofn "/home/ise/synFIFO/synFIFO.syr" 
+xst -intstyle ise -ifn "/home/ise/synFIFO/synFIFO.xst" -ofn "/home/ise/synFIFO/synFIFO.syr" 
+xst -intstyle ise -ifn "/home/ise/synFIFO/synFIFO.xst" -ofn "/home/ise/synFIFO/synFIFO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-4 synFIFO.ngc synFIFO.ngd  
+map -intstyle ise -p xc3s50-pq208-4 -cm area -ir off -pr off -c 100 -o synFIFO_map.ncd synFIFO.ngd synFIFO.pcf 
+par -w -intstyle ise -ol high -t 1 synFIFO_map.ncd synFIFO.ncd synFIFO.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml synFIFO.twx synFIFO.ncd -o synFIFO.twr synFIFO.pcf 
+xst -intstyle ise -ifn "/home/ise/synFIFO/synFIFO.xst" -ofn "/home/ise/synFIFO/synFIFO.syr" 
