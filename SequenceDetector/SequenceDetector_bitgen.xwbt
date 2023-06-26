@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/SequenceDetector/SequenceDetector.ncd
+OUTFILE=/home/ise/SequenceDetector/SequenceDetector.bit
+FAMILY=Spartan3
+PART=xc3s50-4pq208
+WORKINGDIR=/home/ise/SequenceDetector
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620

@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "/home/ise/SequenceDetector/SequenceDetector.xst" -ofn "/home/ise/SequenceDetector/SequenceDetector.syr" 
+xst -intstyle ise -ifn "/home/ise/SequenceDetector/SequenceDetector.xst" -ofn "/home/ise/SequenceDetector/SequenceDetector.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-4 SequenceDetector.ngc SequenceDetector.ngd  
+map -intstyle ise -p xc3s50-pq208-4 -cm area -ir off -pr off -c 100 -o SequenceDetector_map.ncd SequenceDetector.ngd SequenceDetector.pcf 
+par -w -intstyle ise -ol high -t 1 SequenceDetector_map.ncd SequenceDetector.ncd SequenceDetector.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SequenceDetector.twx SequenceDetector.ncd -o SequenceDetector.twr SequenceDetector.pcf 
+bitgen -intstyle ise -f SequenceDetector.ut SequenceDetector.ncd 
+xst -intstyle ise -ifn "/home/ise/SequenceDetector/SequenceDetector.xst" -ofn "/home/ise/SequenceDetector/SequenceDetector.syr" 
+xst -intstyle ise -ifn "/home/ise/SequenceDetector/SequenceDetector.xst" -ofn "/home/ise/SequenceDetector/SequenceDetector.syr" 
+xst -intstyle ise -ifn "/home/ise/SequenceDetector/SequenceDetector.xst" -ofn "/home/ise/SequenceDetector/SequenceDetector.syr" 
